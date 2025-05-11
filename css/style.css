@@ -422,3 +422,32 @@ textarea:active,textarea:focus,input:active,input:focus{
     font-weight: 400;
     line-height: 13px;
 }
+/*footer*/
+.footer{
+    margin:26px 0 32px;
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+}
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    background: var(--gray);
+    border-radius: 30px;
+    padding:28px 54px 29px 63px;
+    justify-content: space-between;
+    width:1295px;
+}
+.footer__content-item{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+}
+.footer__content-text{
+    color:var(--white);
+    font-size:21px;
+    font-weight: 700;
+    line-height: 25px;
+}

@@ -12,20 +12,29 @@
 <body>
     <header class="header">
         <div class="header__container container">
-            <div class="header__content content">
-                <div class="header__content-logo">
-                    <svg class="header__logo-img">
-                        <use xlink:href="img/sprite.svg#logo"></use>
-                    </svg>
-                    <p class="header__logo-text">Psy<span>Metric</span></p>
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <svg class="header__logo-img" aria-hidden="true" focusable="false">
+                            <use xlink:href="img/sprite.svg#logo"></use>
+                        </svg>
+                        <span class="header__logo-text">Psy<span>Metric</span></span>
+                    </a>
                 </div>
-                <nav class="header__content-nav">
-                    <li class="header__nav-item"><a href="" class="nav_link link">Топ вопросов</a></li>
-                    <li class="header__nav-item"><a href="" class="nav_link link">О сервисе</a></li>
-                    <li class="header__nav-item"><a href="" class="nav_link link">Вопрос-Ответ</a></li>
-                    <li class="header__nav-item"><a href="" class="nav_link link">Психологам</a></li>
+                <nav class="header__nav" aria-label="Основное меню">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Топ вопросов</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">О сервисе</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Вопрос-Ответ</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Психологам</a></li>
+                    </ul>
                 </nav>
-                <button class="header__content-btn btn">Войти <img src="img/arrow.png" alt=""></button>
+                <div class="header__actions">
+                    <button class="header__btn btn">
+                        Войти
+                        <img src="img/arrow.png" alt="" aria-hidden="true">
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -43,7 +52,7 @@
         <div class="intro__container container">
             <div class="intro__content content">
                 <div class="intro__content-left">
-                    <h1 class="intro__title"><span>Онлайн сервис</span> психологической помощи в 1 клик</h1>
+                    <h1 class="intro__title"><span>Онлайн сервис</span> <br>психологической<br> помощи в 1 клик</h1>
                     <div class="intro__points">
                         <div class="intro__points-item">
                             <img src="img/decision.png" alt="" class="points__item-icon">
@@ -121,5 +130,8 @@
             </div>
         </div>
     </section>
+    <footer class = "footer">
+        div.
+    </footer>
 </body>
 </html>
